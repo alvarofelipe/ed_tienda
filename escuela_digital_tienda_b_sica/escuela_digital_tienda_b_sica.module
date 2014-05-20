@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Escuela Digital TIenda Básica feature.
+ */
+
+include_once 'escuela_digital_tienda_b_sica.features.inc';
