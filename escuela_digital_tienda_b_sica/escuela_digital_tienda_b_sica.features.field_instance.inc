@@ -20,14 +20,18 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(),
+        'settings' => array(
+          'field_formatter_class' => '',
+        ),
         'type' => 'text_default',
         'weight' => 3,
       ),
       'display' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(),
+        'settings' => array(
+          'field_formatter_class' => '',
+        ),
         'type' => 'text_default',
         'weight' => 0,
       ),
@@ -63,6 +67,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'settings' => array(
           'combine' => TRUE,
           'default_quantity' => 1,
+          'field_formatter_class' => '',
           'line_item_type' => 'product',
           'show_quantity' => FALSE,
           'show_single_product_attributes' => FALSE,
@@ -76,6 +81,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'settings' => array(
           'combine' => TRUE,
           'default_quantity' => 1,
+          'field_formatter_class' => '',
           'line_item_type' => 'product',
           'show_quantity' => FALSE,
           'show_single_product_attributes' => FALSE,
@@ -117,6 +123,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => FALSE,
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 1,
@@ -126,6 +133,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => FALSE,
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 1,
@@ -135,6 +143,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => FALSE,
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 1,
@@ -144,6 +153,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => FALSE,
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 1,
@@ -178,6 +188,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => FALSE,
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -187,6 +198,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => FALSE,
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -196,6 +208,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => FALSE,
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -205,6 +218,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => FALSE,
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -239,6 +253,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -248,6 +263,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -257,6 +273,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -266,6 +283,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -275,6 +293,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -284,6 +303,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -293,6 +313,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'field_formatter_class' => '',
         ),
         'type' => 'commerce_price_formatted_amount',
         'weight' => 0,
@@ -322,13 +343,34 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'image',
+        'label' => 'hidden',
+        'module' => 'cloud_zoom',
         'settings' => array(
-          'image_link' => '',
-          'image_style' => '',
+          'field_formatter_class' => '',
+          'gallery_filedset' => array(
+            'gallery_mode' => 1,
+            'thumb_style' => 'micro',
+          ),
+          'slide_style' => 'medium',
+          'zoom_position_fieldset' => array(
+            'adjust_x' => 0,
+            'adjust_y' => 0,
+            'position' => 'inside',
+            'zoom_height' => 200,
+            'zoom_width' => 200,
+          ),
+          'zoom_style' => 'large',
+          'zoom_style_fieldset' => array(
+            'Show title' => 1,
+            'lens_opacity' => 0.5,
+            'smooth_move' => 3,
+            'soft_focus' => 0,
+            'tint' => 'false',
+            'tint_opacity' => 0.5,
+            'title_opacity' => 0.5,
+          ),
         ),
-        'type' => 'image',
+        'type' => 'cloud_zoom',
         'weight' => 1,
       ),
       'line_item' => array(
@@ -405,9 +447,11 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'taxonomy',
-        'settings' => array(),
+        'settings' => array(
+          'field_formatter_class' => '',
+        ),
         'type' => 'taxonomy_term_reference_link',
         'weight' => 2,
       ),
@@ -450,14 +494,17 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(),
+        'settings' => array(
+          'field_formatter_class' => '',
+        ),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
+          'field_formatter_class' => '',
           'trim_length' => 600,
         ),
         'type' => 'text_summary_or_trimmed',
@@ -480,7 +527,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -491,17 +538,18 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
     'description' => 'Añada un producto por cada variacion. Por ejemplo, si tiene dos tallas diferentes de un producto, con precios diferentes, debe crear dos productos.',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'commerce_cart',
         'settings' => array(
           'combine' => TRUE,
           'default_quantity' => 1,
+          'field_formatter_class' => '',
           'line_item_type' => 'product',
           'show_quantity' => FALSE,
           'show_single_product_attributes' => FALSE,
         ),
         'type' => 'commerce_cart_add_to_cart_form',
-        'weight' => 1,
+        'weight' => 6,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -537,6 +585,42 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
         ),
       ),
       'type' => 'inline_entity_form',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'node-producto-field_tipo_de_producto'
+  $field_instances['node-producto-field_tipo_de_producto'] = array(
+    'bundle' => 'producto',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 7,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_tipo_de_producto',
+    'label' => 'Tipo de producto',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'hs_taxonomy',
+      'settings' => array(),
+      'type' => 'taxonomy_hs',
       'weight' => 1,
     ),
   );
@@ -551,6 +635,7 @@ function escuela_digital_tienda_b_sica_field_default_field_instances() {
   t('Product');
   t('Producto');
   t('Tamaño o talla');
+  t('Tipo de producto');
   t('Total');
   t('Unit price');
 
